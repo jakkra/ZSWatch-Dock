@@ -8,7 +8,7 @@
   (title_block
     (title "ZSWatch Dock Programmer and Charger")
     (date "2023-09-27")
-    (rev "2")
+    (rev "3")
     (company "github.com/jakkra/ZSWatch-Dock")
   )
 
@@ -7082,7 +7082,7 @@
     (stroke (width 0.1) (type default)) (layer "User.1") (tstamp c62f70a4-4ae0-4fbc-9655-97a494fc6202))
   (gr_line (start 13.1 39.5) (end 131.678571 39.5)
     (stroke (width 0.1) (type default)) (layer "User.1") (tstamp e625f672-700e-41ba-bccd-640ad610acd6))
-  (gr_text "1.0.2" (at 155.702 124.968) (layer "B.Cu") (tstamp 68e518a4-927c-44bd-9b49-2d6dc7e43491)
+  (gr_text "1.0.3" (at 155.702 124.968) (layer "B.Cu") (tstamp 68e518a4-927c-44bd-9b49-2d6dc7e43491)
     (effects (font (size 0.8 0.8) (thickness 0.12)) (justify left bottom mirror))
   )
   (gr_text "Dock and debugger v1 Rev 2" (at 162.9395 95.804) (layer "B.SilkS") (tstamp 24654287-75fc-446c-b0d4-b416e2616aee)
