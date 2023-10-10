@@ -4,13 +4,17 @@
 
 **Added:**
 
-- Add dip switch to enable / disable charging
+- Add QR code with link to GitHub repository
+- Add switch to enable / disable charging
 
 **Changed:**
 
+- Change PCB color to blue
 - Change PCB version to 1.0.3
 
 **Removed:**
+
+- Remove reset line from STM32 to the watch connector
 
 ## [1.0.2] - 30.09.2023
 
