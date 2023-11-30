@@ -2,10 +2,15 @@
 
 ## [1.0.3] - 
 
+**Fixed:**
+
+- Fix wrong part number for switching regulator inductor (was 1 uH instead of 10 uH)
+
 **Added:**
 
 - Add QR code with link to GitHub repository
 - Add switch to enable / disable charging
+- Add configuration file for KiBot
 
 **Changed:**
 
