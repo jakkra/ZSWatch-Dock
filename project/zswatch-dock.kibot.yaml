@@ -2,14 +2,14 @@ kibot:
   version: 1
 
 variants:
-  - name: "With J-Link"
+  - name: "Internal"
     comment: "Dock with integrated J-Link"
     type: kibom
-    variant: INT_JLINK
-  - name: "Without J-Link"
+    variant: Int
+  - name: "External"
     comment: "Dock without integrated J-Link"
     type: kibom
-    variant: EXT_JLINK
+    variant: Ext
 
 global:
   out_dir: "../production/Export-%D"

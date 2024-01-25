@@ -12,7 +12,7 @@ jobs:
       KICAD_LIBRARY: /home/runner/work/ZSWatch-Dock/ZSWatch-Dock/ZSWatch-Dock/library
     strategy:
       matrix:
-        device_type: [INT_JLINK, EXT_JLINK]
+        device_type: [Internal, External]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
