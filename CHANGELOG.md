@@ -10,7 +10,7 @@
 
 - Add QR code with link to GitHub repository
 - Add switch to enable / disable charging
-- Add configuration file for KiBot
+- Add workflow for KiBot
 
 **Changed:**
 
