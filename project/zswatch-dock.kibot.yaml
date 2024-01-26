@@ -2,14 +2,18 @@ kibot:
   version: 1
 
 variants:
-  - name: "Internal"
-    comment: "Dock with integrated J-Link"
+  - name: "Full"
+    comment: "Dock with integrated J-Link and second USB"
     type: kibom
-    variant: Int
-  - name: "External"
-    comment: "Dock without integrated J-Link"
+    variant: Full
+  - name: "Reduced"
+    comment: "Dock without integrated J-Link and with second USB"
     type: kibom
-    variant: Ext
+    variant: Reduced
+  - name: "Minimum"
+    comment: "Dock without integrated J-Link and without second USB"
+    type: kibom
+    variant: Minimum
 
 global:
   out_dir: "../production/Export-%D"

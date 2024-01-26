@@ -12,7 +12,7 @@ jobs:
       KICAD_LIBRARY: /home/runner/work/ZSWatch-Dock/ZSWatch-Dock/ZSWatch-Dock/library
     strategy:
       matrix:
-        device_type: [Internal, External]
+        device_type: [Full, Reduced, Minimum]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
