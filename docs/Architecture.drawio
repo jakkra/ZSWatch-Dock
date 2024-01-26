@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T18:25:45.427Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="C6wqz-PaK-KkMtfI6tmL" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-26T18:26:35.351Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="j4P5qU5nKnrdqetYwgdv" version="23.0.2" type="github">
   <diagram name="Seite-1" id="uoB5s_NOn5Kz51gLZ3H2">
-    <mxGraphModel dx="850" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1232" dy="1096" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -162,11 +162,11 @@
         <mxCell id="KBUpss7MyCprIlvvS2ba-31" value="SEL:&lt;br&gt;- Default: HIGH via Pull-Up&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Must be HIGH because SEL is used as RESET in revisions &amp;lt;5&lt;br&gt;- Watch Rev 1 to 4&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- Reset of the Watch pulled to HIGH&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- SWD selected&lt;br&gt;- Watch Rev &amp;gt;4&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- SWD selected" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="748" y="40" width="390" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="KBUpss7MyCprIlvvS2ba-32" value="Switch is pulling SEL to HIGH" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="KBUpss7MyCprIlvvS2ba-32" value="Switch is pulling SEL to LOW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1178" y="230" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KBUpss7MyCprIlvvS2ba-33" value="SEL = LOW -&amp;gt; SWD&lt;br&gt;SEL = HIGH -&amp;gt; USB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="788" y="330" width="130" height="40" as="geometry" />
+        <mxCell id="KBUpss7MyCprIlvvS2ba-33" value="SEL = LOW -&amp;gt; USB&lt;br&gt;SEL = HIGH -&amp;gt; SWD" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="783" y="330" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="KBUpss7MyCprIlvvS2ba-35" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="KBUpss7MyCprIlvvS2ba-1" target="KBUpss7MyCprIlvvS2ba-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
