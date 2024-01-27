@@ -11,7 +11,7 @@ variants:
     type: kibom
     variant: Reduced
   - name: "Minimum"
-    comment: "Dock without integrated J-Link and without second USB"
+    comment: "Dock without integrated J-Link and second USB"
     type: kibom
     variant: Minimum
 
@@ -126,9 +126,9 @@ outputs:
       - layer: F.Fab
         suffix: F_Fab
         description: Front documentation
-      - layer: User.1
-        suffix: User_1
-        description: User layer 1
+      - layer: User.2
+        suffix: User_2
+        description: User layer 2
 
   - name: "Pick & Place"
     comment: "Pick & Place"
@@ -237,6 +237,8 @@ outputs:
     comment: "STEP file generation"
     type: step
     dir: cad
+    options:
+      origin: "156,101.5"
 
   - name: "3D rendering"
     comment: "3D rendering"
