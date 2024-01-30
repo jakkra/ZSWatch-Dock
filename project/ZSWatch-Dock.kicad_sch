@@ -2972,7 +2972,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x05") (at 22.86 67.31 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 00caa3f5-80a6-49a2-a6f4-4f5d7b29b83b)
     (property "Reference" "X1" (at 20.32 66.675 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2996,6 +2996,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Order Number" "855-M20-9990546" (at 22.86 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CONFIG" "" (at 22.86 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8222c510-19e2-436b-890b-ed7f562b92e2))

@@ -419,16 +419,18 @@
     (at 141.5835 96.42)
     (descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x05 2.54mm single row")
+    (property "CONFIG" "")
     (property "Distributor" "Mouser")
     (property "Mfr." "Harwin")
     (property "Mfr. No." "M20-9990546")
     (property "Order Number" "855-M20-9990546")
     (property "Sheetfile" "ZSWatch-Dock.kicad_sch")
     (property "Sheetname" "")
+    (property "exclude_from_bom" "")
     (property "ki_description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/00caa3f5-80a6-49a2-a6f4-4f5d7b29b83b")
-    (attr through_hole exclude_from_pos_files)
+    (attr through_hole exclude_from_pos_files exclude_from_bom)
     (fp_text reference "X1" (at 0 -2.33) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 58c92f3c-86b8-444e-9191-838d90126a4a)
@@ -481,7 +483,7 @@
       (net 8 "GND") (pinfunction "Pin_4") (pintype "passive") (tstamp 169d01cb-e156-4de8-b95f-e8cc25c0dfb0))
     (pad "5" thru_hole oval (at 0 10.16) (size 1.8 1.8) (drill 1.4) (layers "*.Cu" "*.Mask")
       (net 57 "Net-(Q1-D)") (pinfunction "Pin_5") (pintype "passive") (tstamp 3272aabc-af55-4926-bb65-6b4700657c4c))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
