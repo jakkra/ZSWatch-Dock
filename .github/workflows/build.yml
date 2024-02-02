@@ -22,6 +22,7 @@ jobs:
 
       - name: Dependencies
         run: |
+          sudo apt update
           wget https://github.com/INTI-CMNB/KiBot/releases/download/v1.6.3/kibot_1.6.3-1_all.deb
           sudo apt install ./kibot*_all.deb
 
@@ -32,7 +33,6 @@ jobs:
           sudo apt install ./kiauto_2.2.8-1_all.deb
 
           sudo add-apt-repository --yes ppa:kicad/kicad-7.0-releases
-          sudo apt update
           sudo apt install --install-recommends kicad
 
       - name: Initialize
