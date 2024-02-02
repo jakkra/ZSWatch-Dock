@@ -2693,6 +2693,11 @@
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 39384fbf-22cb-44b8-bc13-162a3f3dc542)
   )
+  (text "NOTE:\nSEL must be high in default mode\nbecause in revisions <5 SEL is used\nas MCU reset."
+    (at 13.97 223.52 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 59fabe86-7a2a-4d47-9f17-06acbb5348a2)
+  )
   (text "1V8 Regulator" (at 13.97 17.78 0)
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 791c6487-efab-4435-b51c-bcd2dabdd34c)
