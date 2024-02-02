@@ -1,3 +1,5 @@
+[![Build](https://github.com/Kampi/ZSWatch-Dock/actions/workflows/build.yml/badge.svg)](https://github.com/Kampi/ZSWatch-Dock/actions/workflows/build.yml)
+
 # ZSWatch-Dock
 
 ## Table of Contents
@@ -42,12 +44,7 @@ The board acts as a SWD bridge to connect an external debugger at the `DEBUG` co
 ## Directory structure
 
 - `cad`: 3D model of the complete PCB
-- `docs`: All kind of project documentation like schematics, BOM, etc.
-- `production`: Production files for the PCB
-  - `With J-Link`: Production files for the dock with integrated J-Link
-    - `PCBWay`: Ordering instructions and production files ready for ordering at [PCBWay](https://www.pcbway.com/)
-  - `Without J-Link`: Production files for the dock without integrated J-Link
-    - `PCBWay`: Ordering instructions and production files ready for ordering at [PCBWay](https://www.pcbway.com/)
+- `docs`: All kind of project documentation
 - `project`: KiCad project for the PCB
 
 ## Maintainer
