@@ -11,6 +11,7 @@
 - Add QR code with link to GitHub repository
 - Add switch to enable / disable charging
 - Add workflow for KiBot
+- Add additional USB data interface
 
 **Changed:**
 
