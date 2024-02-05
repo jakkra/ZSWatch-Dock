@@ -24,6 +24,8 @@ outputs:
     comment: "Download the components datasheets"
     type: download_datasheets
     dir: docs/datasheets
+    options:
+      field: "Datenblatt"
 
   - name: "Generate IBOM"
     comment: "Interactive Bill of Materials"
