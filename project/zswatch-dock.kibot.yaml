@@ -2,13 +2,18 @@ kibot:
   version: 1
 
 variants:
-  - name: "Watch"
-    comment: "Regular Watch PCB"
+  - name: "Full"
+    comment: "Dock with integrated J-Link and second USB"
     type: kibom
-  - name: "Sensor"
-    comment: "Reduced Watch PCB for sensing applications"
+    variant: Full
+  - name: "Reduced"
+    comment: "Dock without integrated J-Link and with second USB"
     type: kibom
-    variant: Env
+    variant: Reduced
+  - name: "Minimum"
+    comment: "Dock without integrated J-Link and second USB"
+    type: kibom
+    variant: Minimum
 
 global:
   out_dir: "../production/Export-%D"
