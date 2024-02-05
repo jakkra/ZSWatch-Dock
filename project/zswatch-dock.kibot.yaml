@@ -107,12 +107,6 @@ outputs:
       - layer: F.Cu
         suffix: F_Cu
         description: Front copper
-      - layer: Inner1
-        suffix: Layer1
-        description: 'Inner cooper layer'
-      - layer: Inner1
-        suffix: Layer2
-        description: 'Inner copper layer'
       - layer: B.Cu
         suffix: B_Cu
         description: Bottom copper
