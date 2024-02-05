@@ -176,7 +176,7 @@ outputs:
     comment: "Ref Top"
     type: pcb_print
     dir: docs
-    category: "documentation"
+    category: "purchasing"
     options:
       output: "Ref_Top.%x"
       format: PDF
@@ -191,7 +191,7 @@ outputs:
     comment: "Ref Bottom"
     type: pcb_print
     dir: docs
-    category: "documentation"
+    category: "purchasing"
     options:
       output: "Ref_Bot.%x"
       format: PDF
