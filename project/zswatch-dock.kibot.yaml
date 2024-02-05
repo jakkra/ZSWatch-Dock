@@ -2,40 +2,41 @@ kibot:
   version: 1
 
 variants:
-  - name: "Full"
-    comment: "Dock with integrated J-Link and second USB"
+  - name: "Watch"
+    comment: "Regular Watch PCB"
     type: kibom
-    variant: Full
-  - name: "Reduced"
-    comment: "Dock without integrated J-Link and with second USB"
+  - name: "Sensor"
+    comment: "Reduced Watch PCB for sensing applications"
     type: kibom
-    variant: Reduced
-  - name: "Minimum"
-    comment: "Dock without integrated J-Link and second USB"
-    type: kibom
-    variant: Minimum
+    variant: Env
 
 global:
   out_dir: "../production/Export-%D"
   date_format: "%Y-%m-%d"
 
 outputs:
+  - name: "Naviagation results"
+    comment: "Create navigation results page"
+    type: navigate_results
+    dir: "./"
+
   - name: "Download datasheets"
-    comment: "Download the components datasheets"
+    comment: "Download component datasheets"
     type: download_datasheets
     dir: docs/datasheets
-    options:
-      field: "Datenblatt"
+    category: "documentation"
 
   - name: "Generate IBOM"
     comment: "Interactive Bill of Materials"
     type: ibom
     dir: docs
+    category: "documentation"
 
   - name: "Print Schematics"
     comment: "Print schematic (PDF)"
     type: pdf_sch_print
     dir: docs
+    category: "documentation"
     options:
       output: Schematic.%x
 
@@ -43,6 +44,7 @@ outputs:
     comment: "Top layer view"
     type: pcbdraw
     dir: docs/images
+    category: "documentation"
     options:
       format: png
       bottom: false
@@ -52,6 +54,7 @@ outputs:
     comment: "Bottom layer view"
     type: pcbdraw
     dir: docs/images
+    category: "documentation"
     options:
       format: png
       bottom: true
@@ -61,6 +64,7 @@ outputs:
     comment: "Generate drill files"
     type: excellon
     dir: gerber
+    category: "production"
     options:
       metric_units: true
       mirror_y_axis: false
@@ -75,6 +79,7 @@ outputs:
     comment: "Generate Gerbers"
     type: gerber
     dir: gerber
+    category: "production"
     options:
       exclude_edge_layer: false
       exclude_pads_from_silkscreen: false
@@ -97,6 +102,12 @@ outputs:
       - layer: F.Cu
         suffix: F_Cu
         description: Front copper
+      - layer: Inner1
+        suffix: Layer1
+        description: 'Inner cooper layer'
+      - layer: Inner1
+        suffix: Layer2
+        description: 'Inner copper layer'
       - layer: B.Cu
         suffix: B_Cu
         description: Bottom copper
@@ -133,14 +144,15 @@ outputs:
       - layer: F.Fab
         suffix: F_Fab
         description: Front documentation
-      - layer: User.2
-        suffix: User_2
-        description: User layer 2
+      - layer: User.1
+        suffix: User_1
+        description: User layer 1
 
   - name: "Pick & Place"
     comment: "Pick & Place"
     type: position
     dir: centroid
+    category: "production"
     options:
       format: ASCII
       only_smd: false
@@ -149,6 +161,7 @@ outputs:
     comment: "PCB Specifications"
     type: pcb_print
     dir: docs
+    category: "production"
     options:
       output: "PCB.pdf"
       format: PDF
@@ -163,6 +176,7 @@ outputs:
     comment: "Ref Top"
     type: pcb_print
     dir: docs
+    category: "documentation"
     options:
       output: "Ref_Top.%x"
       format: PDF
@@ -177,6 +191,7 @@ outputs:
     comment: "Ref Bottom"
     type: pcb_print
     dir: docs
+    category: "documentation"
     options:
       output: "Ref_Bot.%x"
       format: PDF
@@ -191,10 +206,12 @@ outputs:
   - name: "BOM for PCBWay"
     comment: "BOM for PCBWay"
     type: bom
+    dir: docs
+    category: "purchasing"
     options:
       format: XLSX
       count_smd_tht: true
-      output: "BOM.%x"
+      output: "BOM_PCBWay.%x"
       ref_separator: ','
       columns:
         - field: Row
@@ -223,6 +240,7 @@ outputs:
   - name: "ZIP Gerber"
     comment: "ZIP Gerber"
     dir: .
+    category: "purchasing"
     type: compress
     options:
       format: ZIP
@@ -233,6 +251,7 @@ outputs:
   - name: "ZIP Centroid"
     comment: "ZIP Centroid"
     dir: .
+    category: "purchasing"
     type: compress
     options:
       format: ZIP
@@ -244,13 +263,13 @@ outputs:
     comment: "STEP file generation"
     type: step
     dir: cad
-    options:
-      origin: "156,101.5"
+    category: "mechanical"
 
   - name: "3D rendering"
     comment: "3D rendering"
     type: render_3d
     dir: docs/images
+    category: "documentation"
     options:
       ray_tracing: true
       rotate_x: 3
