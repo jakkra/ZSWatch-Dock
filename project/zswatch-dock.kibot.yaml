@@ -23,7 +23,7 @@ outputs:
   - name: "Naviagation results"
     comment: "Create navigation results page"
     type: navigate_results
-    dir: "./"
+    dir: "overview"
 
   - name: "Download datasheets"
     comment: "Download component datasheets"
@@ -238,9 +238,9 @@ outputs:
 
   - name: "ZIP Gerber"
     comment: "ZIP Gerber"
+    type: compress
     dir: .
     category: "purchasing"
-    type: compress
     options:
       format: ZIP
       files:
@@ -249,9 +249,9 @@ outputs:
 
   - name: "ZIP Centroid"
     comment: "ZIP Centroid"
+    type: compress
     dir: .
     category: "purchasing"
-    type: compress
     options:
       format: ZIP
       files:
