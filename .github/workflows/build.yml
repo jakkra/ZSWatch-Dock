@@ -8,16 +8,24 @@ jobs:
   build:
     runs-on: ubuntu-22.04
 
+    permissions:
+      contents: write
+
     env:
-      KICAD_LIBRARY: /home/runner/work/ZSWatch-Dock/ZSWatch-Dock/ZSWatch-Dock/library
+      KICAD_LIBRARY: /home/runner/work/ZSWatch-Dock/ZSWatch-Dock/library
+
     strategy:
       matrix:
         device_type: [Full, Reduced, Minimum]
+        include:
+          - device_type: Full
+            NewImage: 1
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          path: ZSWatch-Dock
+          path: .
           submodules: recursive
 
       - name: Dependencies
@@ -35,23 +43,38 @@ jobs:
           sudo add-apt-repository --yes ppa:kicad/kicad-7.0-releases
           sudo apt install --install-recommends kicad
 
+          git clone https://github.com/Kampi/KiCad.git library
+
+      - name: Extract branch name
+        shell: bash
+        run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
+        id: extract_branch
+
       - name: Initialize
-        working-directory: ZSWatch-Dock
         run: |
           mkdir production
-          git clone https://github.com/Kampi/KiCad.git library
-          cd library
-          echo ${PWD}
 
       - name: Generate files
         run: |
-          cd ZSWatch-Dock/project
+          cd project
           kibot -g variant=${{ matrix.device_type }} -d ../production/${{ matrix.device_type }}
-      
+
       - name: Upload Results
         uses: actions/upload-artifact@v3
         with:
           name: ${{ matrix.device_type }}
           path: |
-            ZSWatch-Dock/production
+            production
           if-no-files-found: ignore
+
+      - if: ${{ matrix.NewImage }}
+        name: Update image
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          cp production/Full/docs/images/PCB_Rendering.png docs/images/Dock_Complete.jpg
+          git add docs/images/Dock_Complete.jpg
+          git commit -m "Add image from CI/CD action"
+          git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          echo https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push origin ${{ steps.extract_branch.outputs.branch }}
