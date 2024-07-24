@@ -1,6 +1,18 @@
 # CHANGELOG
 
-## [1.0.3] - 
+## [1.0.4] - 20.07.2024
+
+**Fixed:**
+
+**Added:**
+
+- Add current measurement interface
+
+**Changed:**
+
+**Removed:**
+
+## [1.0.3] - 20.07.2024
 
 **Fixed:**
 
