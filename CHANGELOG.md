@@ -7,10 +7,13 @@
 **Added:**
 
 - Add current measurement interface
+- Add LM66200 for VBus
 
 **Changed:**
 
 **Removed:**
+
+- Remove protection diode from VBus
 
 ## [1.0.3] - 20.07.2024
 
