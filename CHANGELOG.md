@@ -4,6 +4,8 @@
 
 **Fixed:**
 
+- Fix non ideal footprint for NTS0104GU12
+
 **Added:**
 
 - Add current measurement interface
