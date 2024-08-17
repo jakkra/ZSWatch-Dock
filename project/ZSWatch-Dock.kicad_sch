@@ -17478,7 +17478,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "620R"
 			(at 391.16 245.11 90)
 			(effects
 				(font
@@ -17495,7 +17495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/PYu_RT_1_to_0_01_RoHS_L_12-3003070.pdf"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/PYu_AF_51_RoHS_L_9-3358811.pdf"
 			(at 391.16 247.65 0)
 			(effects
 				(font
@@ -17522,7 +17522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "RT0603FRE07220RL"
+		(property "Mfr. No." "AF0603FR-07620RL"
 			(at 391.16 247.65 0)
 			(effects
 				(font
@@ -17540,7 +17540,16 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RT0603FRE07220RL"
+		(property "Order Number" "603-AF0603FR-07620RL"
+			(at 391.16 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
 			(at 391.16 247.65 0)
 			(effects
 				(font
