@@ -270,6 +270,8 @@ outputs:
     dir: docs/images
     category: "documentation"
     options:
+      zoom: -2
+      move_y: 2
       ray_tracing: true
       rotate_x: 3
       rotate_z: -2
