@@ -9108,7 +9108,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "855-M20-9990546"
+		(property "CONFIG" ""
 			(at 24.13 66.04 0)
 			(effects
 				(font
@@ -9117,7 +9117,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "855-M20-9990546"
 			(at 24.13 66.04 0)
 			(effects
 				(font
@@ -9628,7 +9628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "771-BSH205G2AR"
+		(property "Order. No." "771-BSH205G2AR"
 			(at 64.77 77.47 0)
 			(effects
 				(font
@@ -9737,7 +9737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06036C225MAT2A"
+		(property "CONFIG" "+FULL,+REDUCED"
 			(at 119.38 36.83 0)
 			(effects
 				(font
@@ -9746,7 +9746,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL,+REDUCED"
+		(property "Order. No." "581-06036C225MAT2A"
 			(at 119.38 36.83 0)
 			(effects
 				(font
@@ -9849,7 +9849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RT0603FRE07220RL"
+		(property "Order. No." "603-RT0603FRE07220RL"
 			(at 391.16 236.22 0)
 			(effects
 				(font
@@ -9956,7 +9956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" "+FULL"
 			(at 234.95 82.55 0)
 			(effects
 				(font
@@ -9965,7 +9965,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL"
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 234.95 82.55 0)
 			(effects
 				(font
@@ -10069,7 +10069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "652-CR0603-J/-000ELF"
+		(property "CONFIG" "+MINIMUM"
 			(at 83.82 215.9 0)
 			(effects
 				(font
@@ -10078,7 +10078,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+MINIMUM"
+		(property "Order. No." "652-CR0603-J/-000ELF"
 			(at 83.82 215.9 0)
 			(effects
 				(font
@@ -10320,7 +10320,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "611-PCM12SMTR"
+		(property "CONFIG" "+FULL,+REDUCED"
 			(at 34.29 269.24 0)
 			(effects
 				(font
@@ -10329,7 +10329,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL,+REDUCED"
+		(property "Order. No." "611-PCM12SMTR"
 			(at 34.29 269.24 0)
 			(effects
 				(font
@@ -10445,7 +10445,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "710-150060VS75003"
+		(property "Order. No." "710-150060VS75003"
 			(at 381 236.22 0)
 			(effects
 				(font
@@ -10550,7 +10550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" "+FULL,+REDUCED"
 			(at 45.72 270.51 0)
 			(effects
 				(font
@@ -10559,7 +10559,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL,+REDUCED"
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 45.72 270.51 0)
 			(effects
 				(font
@@ -10663,7 +10663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "652-CR0603-J/-000ELF"
+		(property "CONFIG" "+FULL,+REDUCED"
 			(at 29.21 149.86 0)
 			(effects
 				(font
@@ -10672,7 +10672,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL,+REDUCED"
+		(property "Order. No." "652-CR0603-J/-000ELF"
 			(at 29.21 149.86 0)
 			(effects
 				(font
@@ -11043,7 +11043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "652-CR0603-J/-000ELF"
+		(property "CONFIG" "+REDUCED,+MINIMUM"
 			(at 143.51 27.94 0)
 			(effects
 				(font
@@ -11052,7 +11052,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+REDUCED,+MINIMUM"
+		(property "Order. No." "652-CR0603-J/-000ELF"
 			(at 143.51 27.94 0)
 			(effects
 				(font
@@ -11226,7 +11226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "595-LM66200DRLR"
+		(property "CONFIG" ""
 			(at 378.46 71.12 0)
 			(effects
 				(font
@@ -11235,7 +11235,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "595-LM66200DRLR"
 			(at 378.46 71.12 0)
 			(effects
 				(font
@@ -11498,7 +11498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "998-MIC5219-3.3YM5TR"
+		(property "CONFIG" "+FULL,+REDUCED"
 			(at 86.36 31.75 0)
 			(effects
 				(font
@@ -11507,7 +11507,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL,+REDUCED"
+		(property "Order. No." "998-MIC5219-3.3YM5TR"
 			(at 86.36 31.75 0)
 			(effects
 				(font
@@ -11886,7 +11886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RT0603FRE07220RL"
+		(property "CONFIG" "+FULL"
 			(at 391.16 224.79 0)
 			(effects
 				(font
@@ -11895,7 +11895,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL"
+		(property "Order. No." "603-RT0603FRE07220RL"
 			(at 391.16 224.79 0)
 			(effects
 				(font
@@ -12000,7 +12000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "200-SHF10501LDSMTR"
+		(property "CONFIG" ""
 			(at 33.02 172.72 0)
 			(effects
 				(font
@@ -12009,7 +12009,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "200-SHF10501LDSMTR"
 			(at 33.02 172.72 0)
 			(effects
 				(font
@@ -12138,7 +12138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "595-TS3USB221A"
+		(property "CONFIG" "+FULL,+REDUCED"
 			(at 83.82 260.35 0)
 			(effects
 				(font
@@ -12147,7 +12147,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL,+REDUCED"
+		(property "Order. No." "595-TS3USB221A"
 			(at 83.82 260.35 0)
 			(effects
 				(font
@@ -12287,7 +12287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" "+FULL"
 			(at 247.65 105.41 0)
 			(effects
 				(font
@@ -12296,7 +12296,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL"
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 247.65 105.41 0)
 			(effects
 				(font
@@ -12539,7 +12539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "71-CRCW0603-5.1K-E3"
+		(property "Order. No." "71-CRCW0603-5.1K-E3"
 			(at 347.98 31.75 0)
 			(effects
 				(font
@@ -12645,7 +12645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06036C105MAT2A"
+		(property "CONFIG" "+FULL,+REDUCED"
 			(at 109.22 36.83 0)
 			(effects
 				(font
@@ -12654,7 +12654,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL,+REDUCED"
+		(property "Order. No." "581-06036C105MAT2A"
 			(at 109.22 36.83 0)
 			(effects
 				(font
@@ -12760,7 +12760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06031C471MAT2A"
+		(property "CONFIG" "+FULL,+REDUCED"
 			(at 99.06 36.83 0)
 			(effects
 				(font
@@ -12769,7 +12769,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL,+REDUCED"
+		(property "Order. No." "581-06031C471MAT2A"
 			(at 99.06 36.83 0)
 			(effects
 				(font
@@ -13143,7 +13143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" "+FULL,+REDUCED"
 			(at 86.36 238.76 0)
 			(effects
 				(font
@@ -13152,7 +13152,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL,+REDUCED"
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 86.36 238.76 0)
 			(effects
 				(font
@@ -13396,7 +13396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "710-150060YS75003"
+		(property "CONFIG" "+FULL"
 			(at 381 224.79 0)
 			(effects
 				(font
@@ -13405,7 +13405,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL"
+		(property "Order. No." "710-150060YS75003"
 			(at 381 224.79 0)
 			(effects
 				(font
@@ -13573,7 +13573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "771-NTS0104GU12115"
+		(property "CONFIG" "+FULL"
 			(at 170.18 149.86 0)
 			(effects
 				(font
@@ -13582,7 +13582,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL"
+		(property "Order. No." "771-NTS0104GU12115"
 			(at 170.18 149.86 0)
 			(effects
 				(font
@@ -14122,7 +14122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "71-CRCW0603-5.1K-E3"
+		(property "CONFIG" "+FULL,+REDUCED"
 			(at 347.98 87.63 0)
 			(effects
 				(font
@@ -14131,7 +14131,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL,+REDUCED"
+		(property "Order. No." "71-CRCW0603-5.1K-E3"
 			(at 347.98 87.63 0)
 			(effects
 				(font
@@ -14234,7 +14234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "640-USB4105-GF-A"
+		(property "CONFIG" "+FULL,+REDUCED"
 			(at 318.77 99.06 0)
 			(effects
 				(font
@@ -14243,7 +14243,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL,+REDUCED"
+		(property "Order. No." "640-USB4105-GF-A"
 			(at 318.77 99.06 0)
 			(effects
 				(font
@@ -14394,7 +14394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "81-GRM188C80J226ME15D"
+		(property "Order. No." "81-GRM188C80J226ME15D"
 			(at 62.23 36.83 0)
 			(effects
 				(font
@@ -14635,7 +14635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "511-STM32F072CBT6"
+		(property "CONFIG" "+FULL"
 			(at 238.76 156.21 0)
 			(effects
 				(font
@@ -14644,7 +14644,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL"
+		(property "Order. No." "511-STM32F072CBT6"
 			(at 238.76 156.21 0)
 			(effects
 				(font
@@ -14886,7 +14886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "652-CR0805-J/-000ELF"
+		(property "CONFIG" ""
 			(at 39.37 77.47 0)
 			(effects
 				(font
@@ -14895,7 +14895,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "652-CR0805-J/-000ELF"
 			(at 39.37 77.47 0)
 			(effects
 				(font
@@ -14999,7 +14999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RT0603FRE07220RL"
+		(property "CONFIG" ""
 			(at 189.23 153.67 0)
 			(effects
 				(font
@@ -15008,7 +15008,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "603-RT0603FRE07220RL"
 			(at 189.23 153.67 0)
 			(effects
 				(font
@@ -15114,7 +15114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RC0603FR-07100KL"
+		(property "CONFIG" ""
 			(at 45.72 242.57 0)
 			(effects
 				(font
@@ -15123,7 +15123,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "603-RC0603FR-07100KL"
 			(at 45.72 242.57 0)
 			(effects
 				(font
@@ -15237,7 +15237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "710-150060VS75003"
+		(property "CONFIG" ""
 			(at 381 247.65 0)
 			(effects
 				(font
@@ -15246,7 +15246,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "710-150060VS75003"
 			(at 381 247.65 0)
 			(effects
 				(font
@@ -15416,7 +15416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "652-CR0603-J/-000ELF"
+		(property "CONFIG" "+MINIMUM"
 			(at 83.82 218.44 0)
 			(effects
 				(font
@@ -15425,7 +15425,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+MINIMUM"
+		(property "Order. No." "652-CR0603-J/-000ELF"
 			(at 83.82 218.44 0)
 			(effects
 				(font
@@ -15532,7 +15532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" "+FULL"
 			(at 173.99 128.27 0)
 			(effects
 				(font
@@ -15541,7 +15541,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL"
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 173.99 128.27 0)
 			(effects
 				(font
@@ -15652,7 +15652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "611-PCM12SMTR"
+		(property "CONFIG" ""
 			(at 62.23 95.25 0)
 			(effects
 				(font
@@ -15661,7 +15661,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "611-PCM12SMTR"
 			(at 62.23 95.25 0)
 			(effects
 				(font
@@ -15777,7 +15777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "810-MLZ1608N100LT000"
+		(property "Order. No." "810-MLZ1608N100LT000"
 			(at 54.61 27.94 0)
 			(effects
 				(font
@@ -15890,7 +15890,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" "+FULL"
 			(at 166.37 128.27 0)
 			(effects
 				(font
@@ -15899,7 +15899,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL"
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 166.37 128.27 0)
 			(effects
 				(font
@@ -16453,7 +16453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "855-M20-9750246"
+		(property "CONFIG" ""
 			(at 40.64 88.9 0)
 			(effects
 				(font
@@ -16462,7 +16462,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "855-M20-9750246"
 			(at 40.64 88.9 0)
 			(effects
 				(font
@@ -16569,7 +16569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" "+FULL"
 			(at 232.41 105.41 0)
 			(effects
 				(font
@@ -16578,7 +16578,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL"
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 232.41 105.41 0)
 			(effects
 				(font
@@ -16682,7 +16682,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "71-CRCW0603-5.1K-E3"
+		(property "Order. No." "71-CRCW0603-5.1K-E3"
 			(at 347.98 29.21 0)
 			(effects
 				(font
@@ -16785,7 +16785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "652-CR0603-J/-000ELF"
+		(property "CONFIG" "+REDUCED,+MINIMUM"
 			(at 143.51 36.83 0)
 			(effects
 				(font
@@ -16794,7 +16794,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+REDUCED,+MINIMUM"
+		(property "Order. No." "652-CR0603-J/-000ELF"
 			(at 143.51 36.83 0)
 			(effects
 				(font
@@ -16897,7 +16897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RC0603FR-07100KL"
+		(property "Order. No." "603-RC0603FR-07100KL"
 			(at 69.85 86.36 0)
 			(effects
 				(font
@@ -17004,7 +17004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "81-GRM188R61A106MALD"
+		(property "Order. No." "81-GRM188R61A106MALD"
 			(at 20.32 36.83 0)
 			(effects
 				(font
@@ -17353,7 +17353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "652-CR0603-J/-000ELF"
+		(property "CONFIG" "+MINIMUM"
 			(at 36.83 149.86 0)
 			(effects
 				(font
@@ -17362,7 +17362,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+MINIMUM"
+		(property "Order. No." "652-CR0603-J/-000ELF"
 			(at 36.83 149.86 0)
 			(effects
 				(font
@@ -17540,7 +17540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-AF0603FR-07620RL"
+		(property "CONFIG" ""
 			(at 391.16 247.65 0)
 			(effects
 				(font
@@ -17549,7 +17549,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "603-AF0603FR-07620RL"
 			(at 391.16 247.65 0)
 			(effects
 				(font
@@ -17786,7 +17786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "71-CRCW0603-1.0K-E3"
+		(property "CONFIG" "+FULL,+REDUCED"
 			(at 40.64 262.89 0)
 			(effects
 				(font
@@ -17795,7 +17795,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL,+REDUCED"
+		(property "Order. No." "71-CRCW0603-1.0K-E3"
 			(at 40.64 262.89 0)
 			(effects
 				(font
@@ -18098,7 +18098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" "+FULL"
 			(at 245.11 82.55 0)
 			(effects
 				(font
@@ -18107,7 +18107,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL"
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 245.11 82.55 0)
 			(effects
 				(font
@@ -18213,7 +18213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RC0603FR-07100KL"
+		(property "CONFIG" "+FULL,+REDUCED"
 			(at 72.39 270.51 0)
 			(effects
 				(font
@@ -18222,7 +18222,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL,+REDUCED"
+		(property "Order. No." "603-RC0603FR-07100KL"
 			(at 72.39 270.51 0)
 			(effects
 				(font
@@ -18468,7 +18468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "71-CRCW0603-5.1K-E3"
+		(property "CONFIG" "+FULL,+REDUCED"
 			(at 347.98 85.09 0)
 			(effects
 				(font
@@ -18477,7 +18477,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+FULL,+REDUCED"
+		(property "Order. No." "71-CRCW0603-5.1K-E3"
 			(at 347.98 85.09 0)
 			(effects
 				(font
@@ -18580,7 +18580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "865-XC9265C181MR-G"
+		(property "Order. No." "865-XC9265C181MR-G"
 			(at 35.56 30.48 0)
 			(effects
 				(font
@@ -18698,7 +18698,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "640-USB4105-GF-A"
+		(property "CONFIG" ""
 			(at 318.77 43.18 0)
 			(effects
 				(font
@@ -18707,7 +18707,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "640-USB4105-GF-A"
 			(at 318.77 43.18 0)
 			(effects
 				(font

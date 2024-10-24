@@ -549,13 +549,55 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CONFIG",
+          "name": "CONFIG",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Distributor",
+          "name": "Distributor",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mfr.",
+          "name": "Mfr.",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mfr. No.",
+          "name": "Mfr. No.",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Order. No.",
+          "name": "Order. No.",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Beschreibung",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referenz"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
