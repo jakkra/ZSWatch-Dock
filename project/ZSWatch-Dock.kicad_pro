@@ -582,15 +582,15 @@
         },
         {
           "group_by": false,
-          "label": "Order. No.",
-          "name": "Order. No.",
-          "show": true
-        },
-        {
-          "group_by": false,
           "label": "Beschreibung",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Order No.",
+          "name": "Order No.",
+          "show": true
         }
       ],
       "filter_string": "",
